@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+
+form h1{
+    text-align: center;
+}
+
+form input{
+    height: 35px;
+    padding: 5px;
+    color: blue;
+    outline: none;
+}
+
+form input::placeholder{
+    color: rgb(201, 201, 201);
+}
+
+form input[type=submit]{
+    background-color: rgb(167, 193, 225);
+    border: none;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    margin-bottom: 10px;
+}
